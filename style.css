@@ -44,4 +44,18 @@ header
 {
     margin-block-end: 0%;
     margin-block-start: 0%;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+    color: #ff0000;
+}
+.campus
+{
+    display: flex;
+    flex-direction: column;
+    width: 370px;
+}
+.campus option
+{
+    font-size: 18px;
 }
