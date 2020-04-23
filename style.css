@@ -101,6 +101,10 @@ header
     /* padding-right: 8px;
     padding-left: 8px; */
 }
+.personal_info label
+{
+    /* padding-left: 8px;    */
+}
 .info
 {
     display: flex;
@@ -175,6 +179,12 @@ header
     width: 643px;
     background-color: #fff;
     font-size: 12px;
+    /* display: flex;
+    flex-direction: column; */
+}
+.qualification label
+{
+    padding-left: 6px;
 }
 .qualification button
 {
@@ -184,6 +194,15 @@ header
     border: none;
     color: #fff;
     font-size: 12px;
+}
+.verification
+{
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+    align-items: flex-end;
+    margin-top: 20px;
+    margin-left: 470px;
 }
 hr
 {
