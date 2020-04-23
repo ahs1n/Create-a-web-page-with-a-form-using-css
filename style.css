@@ -54,7 +54,7 @@ header
     display: flex;
     justify-content: space-around;  
     /* flex-direction: column; */
-    border: black 1px solid;
+    /* border: black 1px solid; */
 }
 .campus
 {
@@ -98,6 +98,75 @@ header
     height: 300px;
     width: 647px;
     background-color: #fff;
+    padding-right: 8px;
+    padding-left: 8px;
+}
+.info
+{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    font-size: 12px;
+}
+.main_row2 h3
+{
+    color: #990000;
+}
+
+.name
+{
+    display: flex;
+    flex-direction: column;
+    width: 301px;
+    margin-top: 10px;
+}
+.cell
+{
+    display: flex;
+    flex-direction: column;
+    width: 301px;
+    margin-top: 10px;
+
+}
+.email
+{
+    display: flex;
+    flex-direction: column;
+    width: 301px;
+    margin-top: 10px;
+
+}
+.father_name
+{
+    display: flex;
+    flex-direction: column;
+    width: 301px;
+    margin-top: 10px;
+
+}
+.hear_about
+{
+    display: flex;
+    flex-direction: column;
+    width: 97%;
+    margin-top: 10px;
+
+}
+.hear_about
+{
+    display: flex;
+    flex-direction: column;
+    width: 97%;
+    margin-top: 10px;
+
+}
+
+.address
+{
+    display: flex;
+    flex-direction: column;
+    width: 97%;
+    margin-top: 10px;
 }
 .qualification
 {
