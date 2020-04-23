@@ -52,7 +52,7 @@ header
 .main_row1
 {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-around;  
     /* flex-direction: column; */
     border: black 1px solid;
 }
@@ -85,4 +85,23 @@ header
 .program option
 {
     font-size: 18px;
+}
+/* personal_info */
+.main_row2
+{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5px;
+}
+.personal_info
+{
+    height: 300px;
+    width: 647px;
+    background-color: #fff;
+}
+.qualification
+{
+    height: 190px;
+    width: 643px;
+    background-color: #fff;
 }
