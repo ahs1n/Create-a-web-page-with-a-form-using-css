@@ -174,11 +174,18 @@ header
     height: 190px;
     width: 643px;
     background-color: #fff;
-    /* padding-right: 8px;
-    padding-left: 8px; */
     font-size: 12px;
 }
-. .qualification hr
+.qualification button
+{
+    height: 32px;
+    width: 157px;
+    background-color: #4992d3;
+    border: none;
+    color: #fff;
+    font-size: 12px;
+}
+hr
 {
     padding-left: 8px;
 }
