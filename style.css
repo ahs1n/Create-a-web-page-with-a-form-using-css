@@ -49,6 +49,13 @@ header
     font-weight: 400;
     color: #ff0000;
 }
+.main_row1
+{
+    display: flex;
+    justify-content: space-around;
+    /* flex-direction: column; */
+    border: black 1px solid;
+}
 .campus
 {
     display: flex;
@@ -56,6 +63,26 @@ header
     width: 370px;
 }
 .campus option
+{
+    font-size: 18px;
+}
+.faculty
+{
+    display: flex;
+    flex-direction: column;
+    width: 370px;
+}
+.faculty option
+{
+    font-size: 18px;
+}
+.program
+{
+    display: flex;
+    flex-direction: column;
+    width: 536px;
+}
+.program option
 {
     font-size: 18px;
 }
